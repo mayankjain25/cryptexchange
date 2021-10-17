@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+.menu-control-container{
+    background-color: #00152A;
+    /* margin: 20rem; */
+    animation: scroll 0.1s ease-in-out !important;
+}
+
+.nav-brand{
+    font-family: 'Josefin Sans', sans-serif;
+    /* letter-spacing:2px; */
+}
+
+.nav-links{
+    font-family: 'Josefin Sans', sans-serif;
+}

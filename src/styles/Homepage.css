@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.heading{
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.home-heading-container{
+    
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.font-open-sans{
+    
+    font-family: 'Open Sans', sans-serif;
+
+}

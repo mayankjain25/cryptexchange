@@ -3,6 +3,7 @@ import {Card,Row,Col,Avatar,Select,Typography,Spin} from 'antd'
 import moment from 'moment'
 import {useGetCryptoNewsQuery} from '../services/cryptoNewsApi'
 import {useGetCryptosQuery} from '../services/cryptoApi'
+import '../styles/News.css'
 
 const {Title,Text} = Typography
 const {Option} = Select
@@ -22,11 +23,11 @@ const News = ({simplified}) => {
 
     if(!cryptoNews?.value) return <div className="loader" style={{textAlign:'center'}}><Spin /></div>
     return (
-        <div>
+        <div className="news">
             <Row gutter={[24,24]}>
                 {
                     !simplified && (
-                        <Col span={24}>
+                        <Col style={{textAlign: 'center'}} span={24}>
                             <Select
                                 showSearch
                                 className="show-news"

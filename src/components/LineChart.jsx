@@ -22,8 +22,8 @@ const LineChart = (props) => {
             label: 'Price In USD',
             data: coinPrice,
             fill: false,
-            backgroundColor: '#0071bd',
-            borderColor: '#0071bd',
+            backgroundColor: props.coinHistory?.data?.change <0?"red":"green",
+            borderColor: props.coinHistory?.data?.change <0?"red":"green",
           },
         ],
       };
